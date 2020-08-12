@@ -15,7 +15,7 @@ console.log(ultimo);
 
 //Ejemplo
 function suma(a, b, c) {
-  console.log(a + b + c);
+    console.log(a + b + c);
 }
 
 const numeros = [1, 2, 3];

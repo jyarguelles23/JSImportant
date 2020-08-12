@@ -2,13 +2,14 @@
 
 //Function Declaration
 saludar();
+
 function saludar() {
-  console.log("Bienvenido");
+    console.log("Bienvenido");
 }
 
 //Function Expression
 const cliente = function (nombre) {
-  console.log(`Mostrando nombre del cliente : ${nombre}`);
+    console.log(`Mostrando nombre del cliente : ${nombre}`);
 };
 
 cliente("yasser");
@@ -18,12 +19,12 @@ cliente("yasser");
 //Parametros por default en funciones
 
 const actividad = function (
-  nombre = "Jesus",
-  actividad = "Mostrar lo aprendido"
+    nombre = "Jesus",
+    actividad = "Mostrar lo aprendido"
 ) {
-  console.log(
-    `La persona de nombre ${nombre}, esta realizando la actividad de ${actividad}`
-  );
+    console.log(
+        `La persona de nombre ${nombre}, esta realizando la actividad de ${actividad}`
+    );
 };
 
 actividad("Herson", "Estudia mineria");

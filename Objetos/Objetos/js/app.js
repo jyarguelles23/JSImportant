@@ -1,9 +1,9 @@
 //Objetos
 //Object Literal old ways
 const persona = {
-  nombre: "Jesus",
-  profesion: "Team Leader",
-  edad: 500,
+    nombre: "Jesus",
+    profesion: "Team Leader",
+    edad: 500,
 };
 
 console.log(persona);
@@ -14,8 +14,8 @@ console.log(persona.edad);
 // Object Constructor new way
 
 function Tarea(nombre, urgencia) {
-  this.nombre = nombre;
-  this.urgencia = urgencia;
+    this.nombre = nombre;
+    this.urgencia = urgencia;
 }
 
 const tarea1 = new Tarea("Yasser", "Urgente");

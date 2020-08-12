@@ -22,8 +22,8 @@ console.log(aprendiendo);
 var musica = "Rock";
 
 if (musica) {
-  var musica = "Reggae";
-  console.log("dentro del if", musica);
+    var musica = "Reggae";
+    console.log("dentro del if", musica);
 }
 console.log("fuera del if", musica);
 
@@ -32,8 +32,8 @@ console.log("fuera del if", musica);
 let musick = "Rock";
 
 if (musick) {
-  let musick = "Reggae";
-  console.log("dentro del if", musick);
+    let musick = "Reggae";
+    console.log("dentro del if", musick);
 }
 console.log("fuera del if", musick);
 
@@ -42,7 +42,7 @@ console.log("fuera del if", musick);
 const music = "Rock";
 
 if (music) {
-  const music = "Reggae";
-  console.log("dentro del if", music);
+    const music = "Reggae";
+    console.log("dentro del if", music);
 }
 console.log("fuera del if", music);
